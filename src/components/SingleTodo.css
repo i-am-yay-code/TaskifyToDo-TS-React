@@ -1,0 +1,34 @@
+.todos__single {
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+}
+
+
+.todos__single__buttons {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.todos__single__text {
+    font-size: 1.2rem;
+    display: inline-block;
+    flex: 1 1 auto;
+}
+
+.todos__single__buttons>span {
+    margin: 0 6px;
+    padding: 0 1px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}
+
+.todos__single__buttons>span:hover {
+    box-shadow: 0 0 3px rgb(148, 147, 143);
+}
+
+.done {
+    text-decoration: line-through;
+}
